@@ -54,7 +54,7 @@ export default {
     };
   },
   mounted() {
-    axios.get('http://numbersapi.com/42')
+    axios.get('https://numbersapi.com/42')
       .then(response => {
         this.response = response.data;
       })
